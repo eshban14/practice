@@ -1,0 +1,25 @@
+
+.demo{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ball{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    border-radius: 50%;
+    animation-name: bounce;
+    animation-duration: 0.8s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes bounce {
+    from{top: 0px;}
+    to{top: -200px; animation-iteration-count: infinite;}
+    
+}

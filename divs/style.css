@@ -1,0 +1,89 @@
+
+
+.ht{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background: red;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    color: white;
+    animation-name:
+     ht  ;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    z-index: 2;
+    
+}
+.cs{
+    /* background: green; */
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    color: white;
+    animation-name:
+      cs  ;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    z-index: 1;
+}
+
+.jav{
+    /* background: green; */
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    color: white;
+    animation-name:
+      jav  ;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+@keyframes ht {
+    0% {left: 0;
+        top: 200px; 
+    }
+    100% {
+        left: 200px;
+        top: 200px;
+    }
+}
+
+@keyframes cs {
+    0% {
+        left: 200px;
+        top: 200px;
+        background-color: green;
+    }
+    100%{
+        left: 400px;
+        top: 200px;
+        background-color: green;
+
+    }
+    
+}
+
+@keyframes jav {
+    0% {
+        left: 400px;
+        top: 200px;
+        background-color: orange;
+    }
+    100%{
+        left: 600px;
+        top: 200px;
+        background-color: orange;
+
+    }
+    
+}
